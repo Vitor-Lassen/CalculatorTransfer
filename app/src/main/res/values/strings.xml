@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculatorTransfer</string>
+    <string name="stateCod">State Code:</string>
+    <string name="loadCod">Load Code:</string>
+    <string name="weightLoad">weight of the load:</string>
+    <string name="taxAmount">Tax amount:</string>
+    <string name="calculate">Calculate!</string>
+    <string name="loadValue">Load Value:</string>
+    <string name="weightLoadKilos">weight of the load(Kg):</string>
+</resources>

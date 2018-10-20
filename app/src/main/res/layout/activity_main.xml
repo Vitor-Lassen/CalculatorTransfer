@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:rowCount="7"
+        android:columnCount="2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/stateCod"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/stateCodEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/elevation"
+            android:inputType="number"
+            android:padding="@dimen/textview_padding"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/loadCod"
+            android:layout_row="1"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/loadCodEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:elevation="@dimen/elevation"
+            android:inputType="number"
+            android:layout_gravity="fill_horizontal"
+            android:padding="@dimen/textview_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/weightLoad"
+            android:layout_row="2"
+            android:layout_column="0"/>
+
+        <EditText
+            android:id="@+id/weightLoadEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:elevation="@dimen/elevation"
+            android:layout_gravity="fill"
+            android:inputType="numberDecimal"
+
+            android:padding="@dimen/textview_padding" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/calculate"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/taxAmount"
+            android:layout_row="4"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/taxAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:elevation="@dimen/elevation"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/loadValue"
+        android:layout_row="5"
+        android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/loadValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding"
+            android:text="@string/weightLoadKilos"
+            android:layout_row="6"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/weightLoadKgTextView"
+            android:layout_width="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:elevation="@dimen/elevation"
+            android:padding="@dimen/textview_padding" />
+
+    </GridLayout>
+
+</ScrollView>
